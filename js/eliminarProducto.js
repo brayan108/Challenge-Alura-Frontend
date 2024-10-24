@@ -9,19 +9,20 @@ contenedorProductos.addEventListener('click', async (event) => {
     
     const botonEliminar = event.target.closest('[data-eliminar]');
       
-        try {
+        if (botonEliminar) {
+            try {
 
-            const respuesta = confirm("¿Estás seguro de que deseas eliminar este producto?");
-
-            if (respuesta) {
-
-                const productoId = botonEliminar.getAttribute('data-id');
-                await conexionAPI.eliminarProducto(productoId);
-                location.reload();
-            }
-            
-
-        } catch (error) {
-            console.log('Error al eliminar el producto:', error);
+                const respuesta = confirm("¿Estás seguro de que deseas eliminar este producto?");
+    
+                if (respuesta) {
+    
+                    const productoId = botonEliminar.getAttribute('data-id');
+                    await conexionAPI.eliminarProducto(productoId);
+                    location.reload();
+                }
+                
+    
+            } catch (error) {
+                console.log('Error al eliminar el producto:', error);
         }
 });
