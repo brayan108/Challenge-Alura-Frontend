@@ -25,4 +25,5 @@ contenedorProductos.addEventListener('click', async (event) => {
             } catch (error) {
                 console.log('Error al eliminar el producto:', error);
         }
+    }
 });
