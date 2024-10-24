@@ -1,0 +1,40 @@
+{
+  "Productos": [
+    {
+      "id": "1",
+      "nombre": "PlayStation 1",
+      "precio": "$ 50.000,00",
+      "imagen": "https://tecnotiendas.com.co/wp-content/uploads/2019/10/ps1.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Xbox",
+      "precio": "$ 350.000,00",
+      "imagen": "https://i.blogs.es/3fccc7/xbox-original/840_560.jpeg"
+    },
+    {
+      "id": "3",
+      "nombre": "PlayStation 2",
+      "precio": "$ 150.000,00",
+      "imagen": "https://i.blogs.es/4967af/ps2-versions/1366_2000.jpeg"
+    },
+    {
+      "id": "4",
+      "nombre": "Xbox 360",
+      "precio": "$ 650.000,00",
+      "imagen": "https://i.blogs.es/06aa3e/xbox-360-adios-tienda-portada/500_333.jpeg"
+    },
+    {
+      "id": "5",
+      "nombre": "PlayStation 3",
+      "precio": "$ 550.000,00",
+      "imagen": "https://i5.walmartimages.com/seo/Restored-Sony-PlayStation-3-PS3-System-Super-Slim-250GB-Refurbished_7a81a26c-2144-4d94-bf44-9a118f73722e.34cf88838325597102df09abfbf93ab8.jpeg"
+    },
+    {
+      "id": "6",
+      "nombre": "Xbox One",
+      "precio": "$ 1.500.000,00",
+      "imagen": "https://m.media-amazon.com/images/I/61LVSqb4BHL._AC_UF894,1000_QL80_.jpg"
+    }
+  ]
+}

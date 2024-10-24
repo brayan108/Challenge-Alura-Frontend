@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es-COL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Front-end Challenge</title>
+</head>
+
+<body>
+    
+    <header>
+        <section class="header">
+            <div class="header__icons">  
+                <i class="bi bi-cloud-arrow-down"></i>
+                <i class="bi-laptop"></i>
+                <i class="bi bi-palette-fill"></i>
+            </div>
+            <h1>Front-end Challenge</h1>
+        </section>
+    </header>
+
+
+
+    <main>
+
+        <section class="principal">
+
+            <article class="lista-productos">
+                <h2>Mis Productos:</h2>
+
+                <div class="lista-productos__container" data-lista>
+
+                <!--<div class="lista-productos_card">
+                        <header><p class="lista-productos_card-titulo">PlayStation</p></header>
+                        <img src="https://tecnotiendas.com.co/wp-content/uploads/2019/10/ps1.jpg" alt="Imagen">
+                        <div class="lista-productos_card__footer">
+                            <p class="lista-productos_card-precio">$ 50.000,00</p>
+                            <button><i class="bi bi-trash-fill"></i></button>
+                        </div>            
+                    </div>
+
+                    <div class="lista-productos_card">
+                        <header><p class="lista-productos_card-titulo">Xbox</p></header>
+                        <img src="https://i.blogs.es/3fccc7/xbox-original/840_560.jpeg" alt="Imagen">
+                        <div class="lista-productos_card__footer">
+                            <p class="lista-productos_card-precio">$ 350.000,00</p>
+                            <button><i class="bi bi-trash-fill"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="lista-productos_card"> 
+                        <header><p class="lista-productos_card-titulo">PlayStation 2</p></header>
+                        <img src="https://i.blogs.es/4967af/ps2-versions/1366_2000.jpeg" alt="Imagen">
+                        <div class="lista-productos_card__footer">
+                            <p class="lista-productos_card-precio">$ 150.000,00</p>
+                            <button><i class="bi bi-trash-fill"></i></button>
+                        </div>
+                    </div> -->
+                            
+
+                </div>
+
+            </article>
+
+
+            <article class="formulario-section">
+
+                <h2>Agregar Producto</h2>
+
+                <form class="formulario" data-formulario>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" required data-nombre>
+
+                    <label for="precio">Precio</label>
+                    <input type="number" required min="0" data-precio>
+
+                    <label for="imagen">Imagen</label>
+                    <input type="url" required data-imagen>
+
+                    <div class="formulario__botones">
+                        <button type="submit">Enviar</button>
+                        <button>Limpiar</button>
+                    </div>
+
+                </form>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+
+    <footer>
+        <section class="footer">
+            <div class="footer__icons">  
+                <i class="bi bi-cloud-arrow-down"></i>
+                <i class="bi-laptop"></i>
+                <i class="bi bi-palette-fill"></i>
+            </div>
+            <h1>Front-end Challenge</h1>
+            <p>Desarrollado por Brayan Zapata 2024</p>
+        </section>
+    </footer>
+
+
+
+    <script type="module" src="./js/mostrarProductos.js" defer></script>
+    <script type="module" src="./js/agregarProducto.js" defer></script>
+    <script type="module" src="./js/eliminarProducto.js" defer></script>
+
+</body>
+</html>
