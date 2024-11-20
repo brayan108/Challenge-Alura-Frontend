@@ -10,6 +10,7 @@ contenedorProductos.addEventListener('click', async (event) => {
     const botonEliminar = event.target.closest('[data-eliminar]');
       
         if (botonEliminar) {
+            
             try {
 
                 const respuesta = confirm("¿Estás seguro de que deseas eliminar este producto?");
