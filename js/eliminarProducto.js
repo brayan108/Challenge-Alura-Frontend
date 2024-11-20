@@ -18,7 +18,7 @@ contenedorProductos.addEventListener('click', async (event) => {
     
                     const productoId = botonEliminar.getAttribute('data-id');
                     await conexionAPI.eliminarProducto(productoId);
-                    location.reload();
+                    await conexionAPI.listaProductos();
                 }
                 
     
