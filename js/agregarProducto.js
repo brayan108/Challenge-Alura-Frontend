@@ -28,7 +28,7 @@ async function agregarProducto(e) {
     try {
 
         await conexionAPI.enviarProducto(nombre, precioFinal, imagen);
-        location.reload();
+        await conexionAPI.listaProductos();
 
     } catch (error) {
         alert(error);
