@@ -8,7 +8,7 @@ Este proyecto fue propuesto como un reto por Alura Latam. Es una aplicación par
 
 
 ## Como Usar
-Tenemos una sección para visualizar los productos y otra para agregarlos, en esta ultima sección, disponemos de 3 campos de texto, en el cual podemos introducir el nombre, el precio y la imagen del producto, cuando completes esta información, debes darle al botón 
+Tenemos una sección para visualizar los productos y otra para agregarlos, en esta ultima sección, disponemos de 3 campos de texto, en el cual podemos introducir el nombre, el precio y la dirección URL de la imagen del producto, cuando completes esta información, debes darle al botón 
 de enviar, esto agregara un nuevo producto al inventario, si quieres limpiar los campos puedes darle al boton de limpiar. ahora, si quieres eliminar un producto, cada uno de estos tiene un botón con simbolo de bote de basura, identifica el producto que quieres
 eliminar y dale al boton correspondiente, despues debes confirmar que si quieres eliminarlo, y se eliminarà automaticamente.
 
